@@ -173,8 +173,25 @@ class Api
     {
 
         return $this->_response->getList();
-
     }
+
+    /**
+     * @return Response|null
+     */
+    public function getFullResponse()
+    {
+        return $this->_response;
+    }
+
+
+    /**
+     * @return GeoObject[]
+     */
+    public function getFullList()
+    {
+        return $this->_response->getFullList();
+    }
+
     /**
      * Clear filters geocoding
      *

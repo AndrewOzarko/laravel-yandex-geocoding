@@ -87,6 +87,12 @@ class Response
         }
 
     }
+
+
+    public function getFullList()
+    {
+        return $this->_list;
+    }
     /**
      *
      * Get first
