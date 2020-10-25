@@ -1,5 +1,5 @@
 {
-    "name": "andrewozarko/laravel-yandex-geocode",
+    "name": "jackmartin/laravel-yandex-geocode",
     "description": "Simply service laravel Yandex Geocoding",
     "keywords": [
         "laravel",
@@ -19,7 +19,7 @@
             "email": "killfess@gmail.com"
         }
     ],
-    "homepage": "https://github.com/andrewozarko/laravel-yandex-geocoding",
+    "homepage": "https://github.com/martinjack/laravel-yandex-geocoding",
     "require": {
         "php": ">=7.0.0"
     },
