@@ -280,6 +280,11 @@ class GeoObject
         return isset($this->_data['SubAdministrativeAreaName']) ? $this->_data['SubAdministrativeAreaName'] : null;
 
     }
+
+    public function getDistrictByOzarko()
+    {
+        return isset($this->_data['DependentLocalityName']) ? $this->_data['DependentLocalityName'] : null;
+    }
     /**
      *
      * Locality
